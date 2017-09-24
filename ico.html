@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Developer</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/ico.css">
+        <link rel="stylesheet" href="assets/css/scrollbar.css">
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.nicescroll.iframehelper.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/ico-web.min.js"></script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    </head>
+    <body class="bg-grey">
+        <div id="ico1" class="col-md-12 col-xs-12 arrowadjust">
+            <div class="col-md-12 logogroup animated fadeIn">
+                <img src="assets/img/logo-top.png" class="logoicon">
+            </div>
+            <div class="col-md-12 animated fadeIn">
+                <div class="col-md-12">
+                    <img src="assets/img/logo.png" class="ico1titlegroup">
+                    <div class="ico1title">
+                        ICO DISTRIBUTION IS OVER IN:
+                    </div>
+                </div>
+                <div class="col-md-12" id="countdown">
+                    <div class="circlegroup">
+                        <span class="circle">00<span class="circletext">DAYS</span></span>
+                    </div>
+                    <div class="circlegroup">
+                        <span class="circle">00<span class="circletext">HOURS</span></span>
+                    </div>
+                    <div class="circlegroup">
+                        <span class="circle">00<span class="circletext">MINUTES</span></span>
+                    </div>
+                    <div class="circlegroup">
+                        <span class="circle">00<span class="circletext">SECONDS</span></span>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <a href="#ico2"><button class="button2 button-blue" style="font-size: 20px;font-weight: 400;">PUBLIC 1<sup style="font-size: 12px;font-weight: 500;">ST</sup> ICO</button></a>
+                </div>
+                <div class="col-md-12" style="color: white;padding-top:60px; ">
+                    <div class="col-md-12" style="font-size: 23px;font-weight: 500;">
+                        ICO PROGRESS
+                    </div>
+                    <div class="col-md-12" style="padding-top:25px;">
+                        <div style="display: inline-block;">
+                            <a href="#ico2"><button class="button2 button-orange" id="ico1button2">CONTRIBUTE NOW!</button></a>
+                        </div>
+                        <div class="ico1available">
+                            <div style="font-size: 14px;display: inline-block;font-weight: 400;">AVAILABLE : </div>
+                            <div id="wallet" style="font-size: 18px;display: inline-block;font-weight: 400;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12" id="ico1bargroup">
+                    <div id="barborder" style="border: 3px #545f6e solid;background: white;border-radius: 5px;">
+                        <div id="bar" style="height: 30px; background-color: #0088eb;text-align: right;">
+                            <img id="barmarker" src="assets/img/logo.png" style="width: 80px;margin-right: -50px;margin-top:-25px;position: relative;">
+                            <div class="barmarkergroup" id="ttgroup1">
+                                <span class="markertext"></span>
+                                <img src="assets/img/rect2.png" id="barmarkertt1" style="height: 20px;margin-top: 12px;">
+                            </div>
+                            <div class="barmarkergroup" id="ttgroup2">
+                                <img src="assets/img/rect2.png" id="barmarkertt2" style="height: 20px;margin-top: 12px;">
+                                <span class="markertext" id="progress" style="font-size: 14px"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="ico1max">
+                            <img src="assets/img/rect1.png" style="height: 35px;margin-top: -2px;">
+                        </div>
+                        <div class="ico1min">
+                            <img src="assets/img/rect3.png" style="height: 35px;margin-top: -2px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ico1rategroup">
+                    <span class="ico1rate">
+                        <div style="display: inline-block;color: white;">Current Rate : </div>
+                        <div style="display: inline-block;color: #00adff;">1 ETH = <span id="rate">100K1</span></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="arrow1" class="col-md-12 col-xs-12 arrow">
+            <a href="#ico2"><div class="arrowgroup"><div class="arrowblock"></div></div></a>
+        </div>
+        <div id="ico2" class="col-md-12 col-xs-12 arrowadjust">
+            <div class="col-md-12 ico2title">
+                K1 ICO INSTRUCTIONS
+            </div>
+            <div class="col-md-12 col-xs-12 ico2content1">
+                <div class="col-md-6 col-xs-12 ico2desc">
+                    To join our ICO simply send ETH to the Ethereum address listed.  Your K1 crypto asset will be returned to the sending address via smart contract administration.  Do not send your ETH directly from an exchange wallet such as Coinbase, Poloniex, Kraken ect...  
+                </div>
+                <div class="col-md-6 col-xs-12 ico2walletgroup">
+                    <div class="col-md-12 col-xs-12" style="text-align: left;font-weight: 500;padding: 10px 0;">Recomended Wallets :</div>
+                    <div class="col-md-3 col-xs-6 wallet">
+                        <a href="https://ethereum.org/">
+                            <img src="assets/img/oew.png" class="walleticon">
+                            <div>
+                                Official Ethereum Wallet
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wallet">
+                        <a href="https://www.myetherwallet.com">
+                            <img src="assets/img/mew.png" class="walleticon">
+                            <div>
+                                My Ether Wallet<br>
+                                <span style="color: #00adff;">(no download)</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wallet">
+                        <a href="https://play.google.com/store/apps/details?id=org.consenlabs.token&hl=en">
+                            <img src="assets/img/imtoken-android.png" class="walleticon">
+                            <div>
+                                Im Token<br>
+                                (For Android)
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wallet">
+                        <a href="https://itunes.apple.com/us/app/imtoken/id1153230571?ls=1&mt=8">
+                            <img src="assets/img/imtoken-iphone.png" class="walleticon">
+                            <div>
+                                Im Token<br>
+                                (For iPhone)
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12 ico2content2">
+                <div class="col-md-12 ethtitle">
+                    SEND ETH TO THIS CONTRACT ADDRESS
+                </div>
+                <div class="col-md-12" id="eth">
+                    0x5b5a67d0657AEf5a24C8778Fc7a890bBf6c19498
+                </div>
+                <div class="col-md-12" id="ethdetail">
+                    Recommended gas limit: 200,000  |  Gas price: 25 gwei
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12 ico2content3">
+                <button class="button2 button-blue copybutton" id="copybutton1">COPY ADDRESS</button>
+                <div style="padding: 8px 0;font-size: 12px;">
+                    By sending ETH you confirm that you have read and accepted our <a href="" style="color: #00adff;">Terms and Conditions</a>
+                </div>
+            </div>
+        </div>
+        <div id="arrow2" class="col-md-12 col-xs-12 arrow">
+            <a href="#ico3"><div class="arrowgroup"><div class="arrowblock"></div></div></a>
+        </div>
+        <div id="ico3" class="col-md-12 col-xs-12 bg-white arrowadjust">
+            <div class="col-md-12 ico3titlegroup">
+                <span style="font-size: 30px;font-weight: 500;">TOKEN SWAP (ICO) DETAILS</span><br>
+                <span style="font-size: 18px;font-weight: 500;color: #00adff;">OFFERING TERMS</span>
+            </div>
+            <div class="col-md-12 ico3content1">
+                <table class="icotable col-md-12">
+                    <thead>
+                        <th width="40%">ICO DETAILS</th>
+                        <th>TERMS</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Timing</td>
+                            <td>
+                                <div class="multirow">
+                                    <span class="fa fa-check-circle bulnum"></span>
+                                    <div>TBD, pending security audit. Join our Slack or follow us on Twitter for an update</div>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Offer Size</td>
+                            <td>
+                                <div class="multirow">
+                                    <span class="fa fa-check-circle bulnum"></span>
+                                    <div>21,000,000 K1</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Rate</td>
+                            <td>
+                                <div class="multirow">
+                                    <span class="fa fa-check-circle bulnum"></span>
+                                    <div>1 ETH = 100 K1</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td>
+                                <div class="multirow">
+                                    <span class="fa fa-check-circle bulnum"></span>
+                                    <div>Distribution of K1 to early investors and supporters is administered via 5 year restricted withdraw smart contract. Compensation is tied directly to the performance of the project.</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-12 ico3content2">
+                Note: K1 distributed via public 1st ICO is unrestricted.  Your K1 may immediately be used in a true open market function.
+            </div>
+        </div>
+        <div id="arrow3" class="col-md-12 col-xs-12 arrow">
+            <a href="#ico4"><div class="arrowgroup"><div class="arrowblock"></div></div></a>
+        </div>
+        <div id="ico4" class="col-md-12 col-xs-12 arrowadjust">
+            <div class="col-md-6 col-xs-12 ico4content" id="ico4content1">
+                <div class="col-md-12 ico4title ico4animate">
+                    FUNDS SHORT-TERM ALLOCATION STRUCTURE
+                </div>
+                <div class="col-md-12">
+                    <div class="ico4infogroup1">
+                        <img src="assets/img/info2.png" class="ico4info ico4animate" id="ico4info1">
+                        <img src="assets/img/info3.png" class="ico4info ico4animate" id="ico4info2">
+                        <img src="assets/img/info4.png" class="ico4info ico4animate" id="ico4info3">
+                    </div>
+                    <div>
+                        <div>
+                            <img src="assets/img/ico4s-1.png" id="ico4s-1" class="ico4animate">
+                            <img src="assets/img/ico4s-2.png" id="ico4s-2" class="ico4animate">
+                            <img src="assets/img/ico4s-3.png" id="ico4s-3" class="ico4animate">
+                        </div>
+                        <img src="assets/img/ico4b.png" id="ico4b" class="ico4animate">
+                    </div>
+                    <div class="ico4infogroup2">
+                        <img src="assets/img/info1.png" class="ico4info ico4animate" id="ico4info4">
+                        <img src="assets/img/info5.png" class="ico4info ico4animate" id="ico4info5">
+                    </div>
+                </div>
+            </div>
+            <div id="ico4content2" class="col-md-6 col-xs-12 ico4content">
+                <div class="col-md-12 ico4title ico4animate">
+                    TOKEN DISTRIBUTION
+                </div>
+                <div class="col-md-12 icographgroup">
+                    <div class="icographgroup1">
+                        <img src="assets/img/offer8.png" id="icograph5" class="ico4animate icoinfo">
+                        <img src="assets/img/offer7.png" id="icograph6" class="ico4animate icoinfo">
+                    </div>
+                    <div>
+                        <div class="icopiecegroup">
+                            <img src="assets/img/offer4.png" id="icograph3" class="ico4animate icos-piece">
+                            <img src="assets/img/offer3.png" id="icograph4" class="ico4animate icos-piece">
+                        </div>
+                        <img src="assets/img/icograph.png" id="icograph1" class="ico4animate icob-piece">
+                    </div>
+                    <div>
+                        <div class="infodgroup">                 
+                            <img src="assets/img/offer9.png" id="icograph7" class="ico4animate icoinfo">
+                            <img src="assets/img/offer6.png" id="icograph8" class="ico4animate icoinfo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="arrow4" class="col-md-12 col-xs-12 arrow">
+            <a href="#ico5"><div class="arrowgroup"><div class="arrowblock"></div></div></a>
+        </div>
+        <div id="ico5" class="col-md-12 col-xs-12">
+            <div class="col-md-12 ico5group">
+                <div class="col-md-5 ico5sideb">
+                    <img src="assets/img/papper.png" class="ico5logobig">
+                </div>
+                <div class="col-md-7 ico5sidea">
+                    <img src="assets/img/papper.png" class="ico5logosmall">
+                    <div class="ico5title">
+                        ICO WHITEPAPER
+                    </div>
+                    <div class="ico5text">
+                        Key Major Coin is a private company building Digital Royalty Networks that serve it's members.  Key Major Coin uses open source technology on decentralized networks but is not an open source platform.  ICO whitepaper is available by request.  By requesting this whitepaper you agree to our <a href="" style="color: #00adff;">terms and conditions</a>.  We reserve the right to protect our intellectual property in the interest of our network members.  Documentation is shared via PGP messaging.
+                    </div>
+                    <div class="ico5buttongroup">
+                        <a style="cursor: pointer;" data-toggle="modal" data-target="#icoModal">
+                            <button class="button2 button-blue" id="ico5button1">REQUEST ICO WHITEPAPPER</button>
+                        </a>
+                        <button class="button2 button-white" id="ico5button2">COPY PUBLIC PGP KEY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 ico5content1">
+                <div class="ico5key">
+                    <div class="ico5scrolltop">
+                        BEGIN PGP PUBLIC KEY BLOCK
+                    </div>
+                    <div class="ico5scrollmid">
+                        <textarea class="ico5scroll" id="ico5scroll">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFmxqksBCADJPOn2MH3mUxR80pqJ8yttDloZMMb1c43Ov+iIiSbFgwSg2Pu1
+8fzS+ynfbQy+3sOFb2J2Ktki6UMdMKcLyHnmp4LdwWs0GE7sgo5WhyrzfLcWLwH2
+JyVxdcH8cESRKOVw9m96P+tA2XzjmYuKq8u3Ohjqf8jYsnPdDSSP9vs51qEYvNXA
+pPXIygM6qM2ATchDH4JSXgMg2yH4lP22bMGPxFX6cLuT36wSzgpPHdL7m4mKZ9dA
+S3xRCo2XSubNGTrN00689usdGiWOMpp2gR8qeB6jB7jsh+VpHjxeHPyltHbSjp2n
+UgZfkoGqspMHpPOLbTogeIkjHJrFusxmtwiVABEBAAG0JktleSBNYWpvciBDb2lu
+IDxkb3VnQGtleW1ham9yY29pbi5jb20+iQE5BBMBCAAjBQJZsapLAhsDBwsJCAcD
+AgEGFQgCCQoLBBYCAwECHgECF4AACgkQ6y+vgRXiVgOV8gf+Jkv93W4iFD8nBLjK
+h91kcb0udqSeuQ1JaLsP1rrG+MViu3FlcJE+NzYqEA5Vne81ZfBLvqRxn3QL0m1O
+vuJDqY81Q9VWi8+3IpTLuS6AlAl9lvGdW85D9yC3jENTf+R2ww+0ThPzkvZKeOHh
+yEzjYYeY5PeD7e2CELGc2yBoeSAjTZJi0prgOnEYDAL8H1lN7yvlJwIyQNxi4NZo
+NnteTuFkN2iNi9HUBbH7ED9jUs2LcXCzKq6DYBX76COtpOm7ntFI59Cs2mOe5c7/
+vCyyvVS0XaLE5lyGlp/TcgCZIROGuF+k7KeM65PQZVuNReIOxwMall/oq+dXsRv2
+Si3z+LkBDQRZsapLAQgAqLBcmfKC9dxf06EihbNTjXWSAP1O2CiD4JLDyUg5QyZ1
+TfkiSrTkM+dpBo+xcxZTT+UfXcWYMjsSw99kUoAUOxy9tdVj5TKBDRhPJMeFqqZV
+shlXX4Y3+vGoKhSBHyNchDCZhVIymFZExJXRjKn1l0SXUL9HkqK4ihEfkCYgGgJd
+miuZCNgczyrHedSfqpwRUI9lvgnwAfZcHANQcj1H32+VteJbNMy+5EEgpOL16S3z
+OLyraxu3ZvgYYTTC8bCv0OWINJjUqggngVVhiQCRH5xpHbL3yFITZt73CrmOIJMx
++kxvpQS0n9tEuxDQmk/qn6JGq8xaqWKDv+vJ2IxiYwARAQABiQEfBBgBCAAJBQJZ
+sapLAhsMAAoJEOsvr4EV4lYD2LcH/0YBiwglLp3fg8pdWRioWyd0sML7ClB/n6pN
+RZ/kWlc4BcflYqY+TMPH5jN/ar/gWK2BijO9NgpCl93agAFeu9JtImv+USh9aPQL
+kIZwgRC6y5FJWr7ppbAU9z+O12RkLVZQrIL4CJ8MBoQuia4BPS2Van06gCYC73pP
+YAikYBgArFLEofBMPkcrvyFB3huJwAbbDjVFiTBf7x9UneUUaNSsAWjOPemfuPuH
+OxapfVcoU6B/a2wKkb69whUY3Hq4HtXrEy18r/YyI0yKGHOFzsOmEUwXaIaMeJje
+uNY5SlHxumyG8T1XIRz00yxmw2WxeuyoKyhQNpWly6izZZrkEHc=
+=hWR/
+-----END PGP PUBLIC KEY BLOCK-----
+                        </textarea>
+                    </div>
+                    <div class="ico5scrollbot">
+                        <button class="button2 button-blue copybutton" id="copybutton3" style="width:200px">COPY PUBLIC PGP KEY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-12 socmedgroup ico5content2">
+                <div class="socmedline">
+                    <div class="socmedblock">
+                        <a href="https://twitter.com/KeyMajorCoin" class="socmedlink">
+                            <div class="fa fa-twitter socmedicon"></div>
+                            <div class="socmedtext">Twitter</div>
+                        </a>
+                    </div>
+                    <!-- <div class="socmedblock">
+                        <a href="#" class="socmedlink">
+                            <div class="fa fa-reddit-alien socmedicon"></div>
+                            <div class="socmedtext">Reddit</div>
+                        </a>
+                    </div> -->
+                    <div class="socmedblock">
+                        <a href="https://join.slack.com/t/keymajorcoin/shared_invite/enQtMjQyNDM0NzU3MzAxLWFkZTUzMzZlNjliM2IwYjIxZWExZDIzYzEzN2I1YjhhYjBjMWNiNzQxZTg3MTM4YWJjNDE3ZTZjYmQ5ZjRmZmI" class="socmedlink" class="socmedlink">
+                            <div class="fa fa-slack socmedicon"></div>
+                            <div class="socmedtext">Slack</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12" id="logo-bottom">
+            <img src="assets/img/logo-bottom.png">
+        </div>
+        <div id="part7" class="padded col-md-12 col-xs-12">
+            Copyright 2017 Key Major Coin. All Rights Reserved.
+        </div>
+
+<div id="icoModal" class="modal fade" role="dialog" style="border-radius: 5px;">
+    <div class="modal-dialog">
+        <div class="modal-content col-md-12" style="padding: 0;">
+            <div class="modal-body col-md-12" style="padding: 0;">
+                <form>
+                <table style="border:0;width: 100%;">
+                    <tr>
+                        <td id="column1" rowspan="2" style="background-image: url('assets/img/icoreqmodal.jpg');background-size: cover;padding: 0;width: 30%;vertical-align: bottom;border-top-left-radius: 5px;border-bottom-left-radius: 5px;background-position: center center;">
+                            <button id="request_button" class="send_mail" style="border:0;width: 100%;position: static;font-size: 18px;padding: 10px;background-color: rgba(3, 21, 44,0.95);color: white;border-bottom-left-radius: 5px;margin-bottom: -1px;" disabled>
+                            Submit <span style="float: right;margin-top: 5px;" class="fa fa-arrow-circle-right"></span>
+                            </button>  
+                        </td>
+                        <td id="column2" style="text-align: left;width: 70%;padding-bottom: 20px;">
+                            <div class="col-md-12" style="float: right;padding: 10px;">
+                                <button type="button" class="close" data-dismiss="modal" style="border: 1px #00adff solid; border-radius: 50px;width: 30px;height: 30px;color: #00adff;opacity: 1;font-weight: 300;padding-bottom: 3px;">&times;</button>
+                            </div>
+                            <div style="padding: 10px 25px 0px 10px;margin-top: 40px;">
+                                <div class="col-md-12 col-xs-12 padbot">
+                                    <label class="modaltitle">Name</label><br>
+                                    <input required="true" id="username" class="col-md-12 modalinput" type="text" name="name" placeholder="Your name" required>
+                                </div>
+                                <div class="col-md-12 col-xs-12 padbot">
+                                    <label class="modaltitle">Email</label><br>
+                                    <input required="true" id="email" class="col-md-12 modalinput" type="email" name="email" placeholder="someone@example.com" required>
+                                </div>
+                                <div class="col-md-12 col-xs-12 padbot">
+                                    <label class="modaltitle">Public PGP Key</label><br>
+                                   <textarea id="publickey" rows="3" class="col-md-12 modalinput" type="text" name="anything" placeholder="Description..."></textarea>
+                                </div>
+                                <div class="col-md-12 col-xs-12 padbot">
+                                    <label class="modaltitle">Comments</label><br>
+                                    <textarea id="comments" rows="5" class="col-md-12 modalinput" type="text" name="anything" placeholder="Description..."></textarea>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="submitsmall">
+                                <button id="request_button" class="send_mail" style="border:0;width: 100%;position: static;font-size: 18px;padding: 10px;background-color: rgba(3, 21, 44,1);color: white;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;margin-bottom: -1px;">
+                                    Submit <span style="float: right;margin-top: 5px;" class="fa fa-arrow-circle-right"></span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    (function() {
+            const preObject = document.getElementById('object');
+            const dbRefObject = firebase.database().ref().child('send');
+            dbRefObject.on('value', snap => {
+                preObject.innerText = JSON.stringify(snap.val(), null, 3);
+            });
+	   emailjs.init("user_ZbwI6VCrSuq9V6dDPOEHH");
+    }());
+
+    $(document).ready(function() {
+            $('#username, #email').keyup(function() {
+
+                var empty = false;
+                $('#username, #email').each(function() {
+                    if ($(this).val().length == 0) {
+                        empty = true;
+                    }
+                });
+
+                if (empty) {
+                    $('#request_button').attr('disabled', 'disabled');
+                } else {
+                    $('#request_button').removeAttr('disabled');
+                }
+            });
+
+            $('#request_button').click(function(){
+                var sendRef     = firebase.database().ref().child('request'); 
+                sendRef.push({
+                    username    : $('#username').val(),
+                    email       : $('#email').val(),
+                    publickey   : $('#publickey').val(),
+                    comments    : $('#comments').val(),
+                });
+            });
+
+            $('.send_mail').click(function(){
+                emailjs.send("gmail", "template_RxEewfb1", {
+                    "email": $('#email').val(),
+                    "reply_to":"webmasmifan@gmail.com",
+                    "from_name":"mifan",
+                    "to_name": $('#username').val(),
+                    "message_html":"email ini adalah email test untuk request"
+                }).then(
+                    function(response) {
+                        console.log("SUCCESS", response);
+                    },
+                    function(error) {
+                        console.log("FAILED", error);
+                    }
+                );
+            });
+	    
+	    $('button').click(function(){
+                emailjs.send("gmail", "notification", {
+			"from"		:$('#username').val(),
+			"from_email"	:$('#email').val(),
+			"comments"	:$('#publickey').val(),
+			"public_key"	:$('#comments').val()
+		}).then(
+                    function(response) {
+                        console.log("SUCCESS", response);
+                    },
+                    function(error) {
+                        console.log("FAILED", error);
+                    }
+                );
+
+            });
+
+        });
+    </script>
+    </body>
+</html>

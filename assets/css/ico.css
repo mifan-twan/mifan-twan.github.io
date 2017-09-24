@@ -1,0 +1,857 @@
+.m-left{
+	margin-left: 20px;
+}
+
+.button2{
+	padding: 8px 25px; border-radius: 6px;
+}
+
+.button-blue{
+	background-color: #00adff;border: 1px #00adff solid;color: white;font-size: 400;
+}
+
+.button-white{
+	background-color: white;border: 1px #00adff solid;color: #00adff;font-size: 400;
+}
+
+.bg-grey{
+	background-color: #f7f8f9;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+/*all ico1 css*/
+#ico1{
+	background: url('../img/icobg.png') no-repeat center bottom;background-size: cover;padding: 80px 0;
+}
+
+.ico1titlegroup{
+	display: block;margin: 0 auto;
+}
+
+.ico1title{
+	font-size: 35px;color: white;font-weight: 500;
+}
+
+#countdown{
+	padding: 40px 0;color: white;
+}
+
+.ico1button2{
+	font-weight: 500;
+}
+
+.circlegroup{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.circle{
+	font-size: 30px;
+	display: table-cell;
+	border-radius: 200px;
+	border: 1px #00adff solid;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+	line-height: 0.5em;
+	padding-top: 5px;
+}
+
+.circletext:before{
+    content:"\a";
+    white-space: pre;
+}
+
+.circletext{
+	font-size: 13px;
+	text-align: center;
+}
+
+.ico1available{
+	background-color: rgba(0,0,0,0.7);border-radius: 6px;padding: 8px 12px;width: 250px;margin-left: 25px;color: #ffad00;display: inline-block;margin-top:5px;
+}
+
+#ico1bargroup{
+		padding: 80px 30vw 20px 30vw;
+}
+
+#barmarker{
+	margin-left: -20px;
+}
+
+.barmarkergroup{
+	text-align: right;margin-top: -100px;color: white;
+}
+
+.markertext{
+	font-size: 16px;font-weight: 400;margin-right: 5px;
+}
+
+#ttgroup1{
+	display: none;
+	/*margin-top:-100px;*/
+}
+
+#ttgroup2{
+	/*display: none;*/
+	width: 130px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: -120px;
+	/*margin-top: -100px;*/
+}
+
+#barmarkertt2{
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.ico1max{
+	text-align: left;width: 49.5%;display: inline-block;
+}
+
+.ico1min{
+	text-align: right;width: 49.5%;display: inline-block;	
+}
+
+.ico1rategroup{
+	padding-top: 30px;padding-bottom: 50px;
+}
+
+.ico1rate{
+	background-color: rgba(0,0,0,0.6);border-radius: 6px;padding: 12px 25px;width: 250px;margin-left: 25px;font-weight: 400;font-size: 18px;
+}
+/*all ico1 css*/
+
+
+/*all ico2 css*/
+#ico2{
+	padding: 100px 120px;
+}
+
+.ico2title{
+	color: #00adff;font-size: 30px;font-weight: 500;
+	animation-delay: 0.3s;
+	visibility: hidden;
+}
+
+.ico2content1{
+	padding-top: 80px;padding-bottom: 25px;
+	animation-delay: 0.6s;
+	visibility: hidden;
+}
+
+.ethtitle{
+	background-color: #f7f8f9;font-weight: 500;z-index: 9;width: 300px;margin: 0 auto;float: none;
+}
+
+.ico2content2{
+	padding: 40px 23vw;
+	animation-delay: 0.9s;
+	visibility: hidden;
+}
+
+.ico2content3{
+	animation-delay: 1.2s;
+	visibility: hidden;
+}
+
+.ico2walletgroup{
+	margin-top: -40px;
+}
+
+.ico2desc{
+	text-align: left;
+}
+
+.wallet{
+	border-radius: 7px;
+	cursor: pointer;
+	height: 120px;
+	font-size: 12px;
+	padding-top:8px;
+}
+
+#eth{
+	border: 2px #00adff solid; border-radius: 6px;color: #00adff;padding: 20px 0;font-size: 17px; font-weight: 500;z-index: 2;margin-top: -12px;
+}
+
+#ethdetail{
+	padding-top:5px;
+}
+
+.walleticon{
+	height: 60px;
+}
+
+.wallet:hover{
+	background-color: #a8e0fb;
+}
+/*all ico2 css*/
+
+
+/*all ico3 css*/
+#ico3{
+	padding: 100px 15px;
+}
+
+.ico3titlegroup{
+	animation-delay: 0.3s;
+	visibility: hidden;
+}
+
+.ico3content1{
+	padding: 50px 250px 0 250px;
+	animation-delay: 0.6s;
+	visibility: hidden;
+}
+
+.ico3content2{
+	margin-top: 20px;
+	animation-delay: 0.9s;
+	visibility: hidden;
+}
+
+.icotable{
+border-collapse:separate !important;padding: 0;
+}
+
+.icotable th {
+	background-color: #00adff;
+	color: white;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.icotable th:first-child{
+	border-top-left-radius: 5px;
+}
+
+.icotable th:last-child{
+	border-top-right-radius: 5px;
+}
+
+.icotable tr {
+	text-align: left;
+}
+
+.icotable tr:last-child td{
+	border-bottom: 1px #00adff solid;
+}
+
+.icotable tr:last-child td:first-child{
+	border-bottom-left-radius: 5px;
+}
+
+.icotable tr:last-child td:last-child{
+	border-bottom-right-radius: 5px;
+}
+
+.icotable td:last-child{
+	padding: 15px 20px 15px 20px;
+	font-weight: 400;
+	border-right: 1px #00adff solid;
+}
+
+.icotable td{
+	padding: 15px 5px 15px 15px;
+	vertical-align: top;
+}
+
+.icotable td:first-child{
+	padding: 15px 20px;
+	border-right: 1px #00adff solid;
+	border-left: 1px #00adff solid;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+
+.icotable tr:nth-child(even){
+ background-color: #edf9ff;
+}
+
+.icotable tr:nth-child(odd){
+background-color: white;
+}
+
+.icotable td div:last-child{
+	/*margin-top: 5px;*/
+}
+
+.multirow:first-child{
+	margin: 0;
+}
+
+.multirow{
+	display: flex;
+}
+
+.multirow{
+	margin-top:5px;
+}
+
+.bulnum{
+	margin-right: 10px;
+	margin-top: 2px;
+	color: #00adff;
+}
+/*all ico3 css*/
+
+
+/*all ico4 css*/
+#ico4{
+	background-image: url('../img/ico4bg.png');
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	padding: 100px 15px;
+}
+
+.ico4title{
+	font-size: 18px;font-weight: 500;text-align: left;padding-left:80px;padding-bottom: 30px;
+}
+
+.ico4content:first-child{
+	border-right: 1px white solid;
+}
+
+.icographgroup{
+    padding-left: 30px;
+}
+
+.icob-piece{
+    width:250px;
+}
+
+.icos-piece{
+    width:100px;
+}
+
+.icographgroup1{
+	margin-bottom: -60px;
+}
+
+.icopiecegroup{
+    margin-bottom: -20px;
+}
+
+.icoinfo{
+    width: 140px;
+}
+
+.icoinfodgroup{
+    margin-top: -55px;
+}
+
+#ico4b{
+	width: 280px;animation-delay: 0.3s;
+}
+
+#ico4s-1{
+	width: 120px;margin-bottom: -35px;margin-left: -10px;animation-delay: 0.6s;
+}
+
+#ico4s-2{
+	width: 90px;margin-left: -90px;animation-delay: 0.6s;
+}
+
+#ico4s-3{
+	width: 130px;margin-bottom: 20px;margin-left: -10px;animation-delay: 0.6s;
+}
+
+#ico4info1{
+	margin-bottom: -135px;margin-left: -70px;animation-delay: 0.9s;
+}
+
+#ico4info2{
+	margin-left: -80px;margin-bottom: -16px;animation-delay: 1.2s;
+}
+
+#ico4info3{
+	margin-left: 80px;margin-bottom: -5px;animation-delay: 1.5s;
+}
+
+#ico4info4{
+	margin-top: -2px;animation-delay: 1.8s;
+}
+
+#ico4info5{
+	margin-left: 130px;margin-top: -20px;animation-delay: 2.1s;
+}
+
+.ico4animate{
+	visibility: hidden;
+}
+
+.ico4infogroup2{
+	margin-top: -40px;
+}
+
+.ico4info{
+	width: 150px;
+}
+
+#icograph1{
+    margin-top: 55px;
+    animation-delay: 0.3s;
+}
+
+#icograph3{
+    margin-left: -90px;margin-bottom: -105px;
+    animation-delay: 0.9s;
+}
+#icograph4{
+    margin-left: -60px;margin-bottom: -80px;
+    animation-delay: 1.2s;
+}
+#icograph5{
+    margin-left: -100px;margin-bottom: -85px;
+    animation-delay: 1.5s;
+}
+#icograph6{
+    margin-bottom: 20px;margin-left: 100px;
+    animation-delay: 1.8s;
+}
+#icograph7{
+    margin-left: -75px;margin-top:-15px;
+    animation-delay: 2.1s;
+}
+#icograph8{
+    margin-left: 150px;margin-top: 9px;
+    animation-delay: 2.4s;
+}
+
+
+/*all ico4 css*/
+
+
+/*all ico5 css*/
+#ico5{
+	padding: 100px 100px;background-color: #f7f8f9;
+}
+
+.ico5sidea{
+	text-align: left;
+	animation-delay: 0.3s;
+	visibility: hidden;
+}
+
+.ico5sideb{
+	animation-delay: 0.6s;
+	visibility: hidden;
+}
+
+.ico5content1{
+	animation-delay: 0.9s;
+	visibility: hidden;
+}
+
+.ico5content2{
+	animation-delay: 1.2s;
+	visibility: hidden;
+}
+
+.ico5group{
+	padding: 10px 0 50px 0;
+}
+
+.ico5buttongroup{
+	margin-top:20px;
+}
+
+.ico5scrolltop{
+	font-weight: 500;font-size: 20px;padding: 10px;border-radius: 5px 5px 0 0; border: 1px #d7d7d7 solid;background-color: white;
+}
+
+.ico5scrollmid{
+	padding: 10px 5px;border-right: 1px #d7d7d7 solid;border-left: 1px #d7d7d7 solid;text-align: left;background-color: white;
+}
+
+.ico5scrollbot{
+	padding: 10px;border-radius: 0 0 5px 5px; border: 1px #d7d7d7 solid;background-color: white;
+}
+
+.ico5scroll{
+	width: 100%;height: 150px;padding: 5px 10px;border: 0;resize: none;
+}
+
+.ico5logobig{
+	max-width: 190px;min-width: 100px;
+}
+
+.ico5logosmall{
+	width: 35px;display: none;
+}
+
+.ico5title{
+	font-size: 25px;font-weight: 500;display: inline-block;vertical-align: bottom;
+}
+
+.ico5text{
+	padding-top: 25px;
+}
+
+#ico5button2{
+	margin-left: 20px;
+}
+
+.ico5key{
+	padding: 20px 270px 60px 270px;
+}
+/*all ico5 css*/
+@media screen and (max-width: 1250px){
+	#ico2{
+		padding: 100px 5vw;
+	}
+
+	.ico3content1{
+		padding: 50px 15vw 0 15vw;
+	}
+
+	.ico4title{
+		padding-left: 20px;
+	}
+
+	#ico4content1{
+		width: 52%;
+		padding-left: 20px;
+	}
+
+	#ico4content2{
+		padding-left: 10px;
+		margin-right: -5vw;
+	}
+
+	#ico5button1{
+		font-size: 12px;
+	}
+
+	#ico5button2{
+		font-size: 12px;
+	}
+
+	.ico5key{
+		padding: 20px 10vw 60px 10vw;
+	}
+}
+
+@media screen and (max-width: 991px){
+	#ico1bargroup{
+		padding: 80px 20vw 20px 20vw;
+	}
+
+	.ico2desc{
+		padding: 0;
+	}
+
+	.ico2walletgroup{
+		padding: 60px 0 0 0;
+	}
+
+	.ico2content1{
+		padding-top: 30px;
+	}
+
+	.ico2content2{
+		padding: 40px 5vw;
+	}
+
+	#ico4content1{
+		width: 100%;
+	}
+
+	.ico3content1{
+		padding: 50px 10vw 0 10vw;
+	}
+
+	.ico4content:first-child{
+		border:0;
+	}
+
+	.ico4content:last-child{
+		padding-top: 70px;
+	}
+
+	#ico5{
+		padding: 100px 60px;
+	}
+
+	.ico5title{
+		padding-left: 10px;
+	}
+
+	.ico5logobig{
+		display: none;
+	}
+
+	.ico5logosmall{
+		display: inline-block;
+	}
+
+	.ico5key{
+		padding: 20px 5vw 60px 5vw;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.ico1title{
+		font-size: 30px;
+	}
+
+	#ico1button2{
+		width: 100%;
+		margin: 0;
+	}
+
+	.ico1available{
+		width: 100%;
+		padding: 5px 10px;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.ico1min{
+		width: 40%;
+	}
+
+	.ico1max{
+		width: 40%;
+	}
+
+	.ico1rate{
+		width: 100%;margin: 0;font-size: 16px;padding: 8px 12px;
+	}
+
+	#ico1bargroup{
+		padding: 80px 5vw 20px 5vw;
+	}
+
+	.markertext{
+		font-size: 13px;
+	}
+
+	.circlegroup{
+		margin: 0 5px;
+	}
+
+	.circle{
+		width: 60px;
+		height: 60px;
+		font-size: 22px;
+	}
+
+	.circletext{
+		font-size: 10px;
+	}
+
+	#ico2{
+		padding: 100px 15px;
+	}
+
+	.ico2walletgroup{
+		margin-top: 0;padding: 30px 0 0 0;
+	}
+
+	.ico2content1{
+		padding-top: 30px;
+	}
+
+	.ico2content2{
+		padding: 40px 5px;
+	}
+
+	.ico2desc{
+		padding: 0;
+	}
+
+	#eth{
+		font-size: 12px;
+	}
+
+	#ethdetail{
+		font-size: 12px;
+	}
+
+	.ico3content1{
+		padding: 50px 10px 0 10px;
+	}
+
+	.icotable th{
+		font-size: 16px;
+	}
+
+	.icotable th:first-child{
+		width: 15%;
+	}
+
+	.icotable td{
+		font-size: 13px;
+	}
+
+	.icotable td:last-child{
+		padding: 15px 5px 15px 5px;
+	}
+
+	.ico4content:first-child{
+		border:0;
+	}
+
+	.ico4title{
+		padding-left: 0;
+		padding-bottom: 15px;
+		font-size: 20px;
+	}
+
+	#ico4b{
+		width: 180px;
+	}
+
+	#ico4s-1{
+		width: 70px;margin-left: -10px;margin-top: 20px;
+	}
+
+	#ico4s-2{
+		width: 60px;margin-left: -60px;margin-top: 30px;
+	}
+
+	#ico4s-3{
+		width: 80px;margin-top: 30px;
+	}
+
+	.ico4info{
+		width: 100px;
+	}
+
+	#ico4info1{
+		margin-left: -40px;margin-bottom: -130px;
+	}
+
+	#ico4info2{
+		margin-left: -80px;margin-bottom: -50px;
+	}
+
+	#ico4info3{
+		margin-left: 50px;margin-bottom: -33px;
+	}
+
+	#ico4info4{
+		margin-top: 12px;margin-left: -20px;
+	}
+
+	#ico4info5{
+		margin-left: 80px;margin-top: 25px;
+	}
+
+	#ico4content1{
+	padding-left: 60px;
+	}
+
+	.ico4infogroup1{
+		margin-left: -30px;
+	}
+
+	.ico4infogroup2{
+		margin-top: -50px;
+		margin-left: -40px;
+	}
+
+	#icograph1{
+		width: 180px;
+	}
+
+    #icograph3{
+    	width: 80px;
+        margin-left: -65px;
+        margin-bottom:-100px;
+    }
+
+    #icograph4{
+    	width: 80px;
+        margin-left:-50px;
+        margin-bottom:-75px;
+    }
+
+    #icograph5{
+        margin-left: -90px;
+        margin-bottom: -60px;
+    }
+
+    #icograph6{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    #icograph7{
+        margin-left: -80px;
+        margin-top: -50px;
+    }
+
+    #icograph8{
+        margin-left: 60px;
+        margin-top: -40px;
+    }
+
+    .icoinfo{
+    	width: 110px;
+    }
+
+    #ico4content2{
+    	padding-left: 60px;
+    }
+
+	#ico5{
+		padding: 100px 15px;
+	}
+
+	.ico5key{
+		padding: 20px 0 60px 0;
+	}
+
+	.ico5scrolltop{
+		font-size: 15px;
+	}
+
+	#ico5button1{
+		width: 100%;
+	}
+
+	#ico5button2{
+		width: 100%;
+		margin-left: 0;
+		margin-top:10px;
+	}
+
+}
+
+@media screen and (max-width: 359px){
+	#eth{
+		font-size: 11px;
+	}
+
+	.ethtitle{
+		padding: 0;width: auto;font-size: 13px;
+	}
+
+	#ico4content1{
+		float: right;
+		padding-left: 0px;
+		margin-right: -40px;
+	}
+
+	#ico4content2{
+		float: right;
+		padding-left: 0px;
+		margin-right: -40px;
+	}
+}

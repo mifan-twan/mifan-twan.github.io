@@ -1,0 +1,1067 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+body{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color: #001B2A;
+ }
+
+/*modal css*/
+.modaltitle{
+    font-size: 18px;font-weight: 400;color: #00adff;
+}
+
+.padbot{
+    padding-bottom: 15px;
+}
+
+.modalinput{
+    border: 1px #b5b5b5 solid;border-radius: 5px;padding: 8px 12px;font-size: 15px;width: 100%;float: left;
+}
+
+.modalinput2{
+    border: 1px #b5b5b5 solid;border-radius: 5px;padding: 8px 12px;font-size: 15px;width: 60%;margin-right: 7px;float: left;
+}
+
+.modalbutton1{
+    background-color: #00adff;color: white;font-size: 16px;padding: 8px 10px;text-align: center;border-radius: 5px;width: 100px;cursor: pointer;float: left;
+}
+
+#submitsmall{
+    display: none;
+}
+
+/*modal css*/
+
+.padded{
+    padding: 15px 230px;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.fl-left{
+    float: left;
+}
+
+.fl-right{
+    float: right;
+}
+
+.arrowadjust{
+    margin-bottom:-25px;
+    padding-bottom:30px;
+}
+
+.arrow{
+    z-index:7;margin-bottom:-25px;
+}
+
+.arrowgroup{
+    margin:auto;height:50px;width:50px;background-color:#32b3db;padding:15px;transform:rotate(45deg);cursor:pointer;
+}
+
+.arrowblock{
+    height:20px;width:20px;border-right: 3px solid white;border-bottom: 3px solid white;
+}
+
+/*all css in part1*/
+
+.logogroup{
+    text-align: left;padding-left: 50px;
+}
+
+.logoicon{
+    width: 200px;
+}
+
+.button{
+    padding: 6px 0;font-size: 16px;width: 100px;text-decoration: none;text-align: center;color: white;
+}
+
+.button-white{
+    border: 2px solid white;background-color: transparent;
+}
+
+.button-white:hover{
+    background-color: white; color:#001c2a;
+}
+
+#whitepaper{
+    margin-left: 15px;
+}
+
+.button-orange{
+    border: 2px solid #ffad00;background-color: #ffad00;margin-left:15px;
+}
+
+.button-orange:hover{
+    background-color: #ad701a;border: 2px solid #ad701a;
+}
+
+#part1{
+    background-image:url('../img/bg1.png');background-size:cover;background-position:center center;background-repeat:no-repeat;
+    padding-top:50px;padding-bottom:50px;
+}
+
+.part1block{
+    float: right;
+}
+
+.part1text{
+    color: white;text-align: left;padding: 50px 120px 50px 120px;
+}
+
+.rightside{
+    text-align:left;letter-spacing: 2px;color: #5C6873;font-size: 26px;font-weight: 400;padding-left: 75px;
+    margin-top: -30px;
+}
+
+.leftside{
+    font-size: 40px;
+}
+
+.leftsidetext{
+    padding: 10px 0;font-size: 15px;
+}
+
+.part1icongroup{
+    padding: 20px 0 40px 0;float: left;margin-left: -50px;
+}
+
+.drn-b{
+    display: block;
+}
+
+#drn-s{
+    display: none;width: 100%;margin: auto;
+}
+
+#drn{
+    width: 100%;
+    min-width: 600px;
+    max-width: 750px;
+}
+
+#dm{
+    width: 220px;margin-left: -217px;margin-bottom: -19px;visibility: hidden;
+}
+
+.hovergroup{
+    float: right;
+}
+
+.part1icontext{
+    font-size: 19px;color: white;padding-top: 5px;
+}
+
+.part1iconhr{
+    width: 60%;margin-bottom: 5px;border-color: #5C6873;max-width: 400px;
+}
+/*all css in part1*/
+
+
+/*all css in part2*/
+#part2{
+    color:#001c2a;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+.part2group{
+    padding:0px 35px;
+    visibility: hidden;
+}
+
+.part2title{
+    font-size: 25px; font-weight: 400;
+}
+
+.part2desc{
+    line-height: 2.2em;padding: 25px 10px;
+}
+
+.part2icongroup{
+    margin-bottom: 15px;
+}
+
+.part2icon{
+    width:150px;
+}
+
+#group1{
+    animation-delay: 0.3s;
+}
+#group2{
+    animation-delay: 0.6s;
+}
+/*all css in part2*/
+
+
+/*all css in part3*/
+#part3{
+    padding: 120px 0 50px 0;color:white;background:linear-gradient(rgba(4, 104, 114,0.85),rgba(4, 104, 114,0.85)),url('../img/team.png') no-repeat center center; background-size:cover;background-attachment:fixed;
+}
+
+.invitetitle{
+    font-size: 40px;
+}
+
+.inviteline{
+    display: inline-block;width:34%; text-align:center; border-bottom: 1px solid #fff; line-height:0.1em; margin:30px 0 20px;
+}
+
+.invitedesc{
+    font-size: 18px;
+}
+
+.inviteicongroup{
+    padding: 50px 320px;
+}
+
+.inviteiconblock{
+    margin-bottom: 40px;padding: 0;visibility: hidden;
+}
+
+#iconblock1{
+    animation-delay: 0.3s;
+}
+#iconblock2{
+    animation-delay: 0.6s;
+}
+#iconblock3{
+    animation-delay: 0.9s;
+}
+
+.inviteicon{
+    height: 85px;
+}
+
+.iconlg{
+    height: 105px;
+}
+/*all css in part3*/
+
+
+/*all css in part4*/
+#part4{
+    padding-top:50px;padding-bottom:40px;
+}
+
+.seektitle{
+    color:#0082ba;font-size:22px;line-height:2em;
+}
+
+.seekdesc{
+    padding: 0 150px;line-height:2em;
+}
+/*all css in part4*/
+
+
+/*all css in contactus*/
+.contacticon{
+    height:100px;background-color:white;border-radius:100px;padding:15px;
+}
+/*all css in contactus*/
+
+
+/*all css in part5*/
+#part5{
+    padding-bottom:120px;background-image:url('../img/offer.jpg');margin-top:-50px;
+    padding-top:65px;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;
+    background-position:center right;z-index: -1;
+}
+
+.offertitle{
+    font-size:40px;color:white;font-weight:400;letter-spacing: 4px;margin-bottom: 40px;
+}
+
+.offergroup{
+    padding: 0px 10px 10px 10px;
+    visibility: hidden;
+}
+
+.offerline{
+    width: 70%;
+    margin-top:10px;
+    visibility: hidden;
+}
+
+.offerblock{
+    background-color:#e5e5e5;
+    padding:10px 18px;
+    height: 120px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#offerline2{
+    animation-delay: 1.2s;
+}
+
+#offerblock1{
+    animation-delay: 0.3s;
+}
+#offerblock2{
+    animation-delay: 0.6s;
+}
+#offerblock3{
+    animation-delay: 0.9s;
+}
+#offerblock4{
+    animation-delay: 1.5s;
+}
+#offerblock5{
+    animation-delay: 1.8s;
+}
+#offerblock6{
+    animation-delay: 2.1s;
+}
+
+.graphgroup{
+    margin-top: 50px;padding-left: 30px;
+}
+
+.graphblock{
+    text-align: center;float: left;
+}
+
+.graph{
+    visibility: hidden;
+}
+
+.b-piece{
+    width:320px;
+}
+
+.s-piece{
+    width:135px;
+}
+
+.piecegroup{
+    margin-top: -60px;
+}
+
+.info{
+    width: 180px;
+}
+
+.infodgroup{
+    margin-top: -55px;
+}
+
+#graph1{
+    margin-top: 65px;
+    animation-delay: 0.3s;
+}
+#graph2{
+    margin-left: -320px;
+    animation-delay: 0.6s;
+}
+#graph3{
+    margin-left: -100px;margin-bottom: -130px;
+    animation-delay: 0.9s;
+}
+#graph4{
+    margin-left: -90px;margin-bottom: -100px;
+    animation-delay: 1.2s;
+}
+#graph5{
+    margin-left: -120px;margin-bottom: -120px;
+    animation-delay: 1.5s;
+}
+#graph6{
+    margin-bottom: 15px;margin-left: 120px;
+    animation-delay: 1.8s;
+}
+#graph7{
+    margin-left: -130px;margin-top:-30px;
+    animation-delay: 2.1s;
+}
+#graph8{
+    margin-left: 140px;margin-top: 3px;
+    animation-delay: 2.4s;
+}
+
+.joinbuttongroup{
+    margin-top: 80px;
+}
+
+.joinbutton{
+    font-size: 25px;width: 100%;font-weight: 500;min-width: 200px; max-width: 400px;
+}
+/*all css in part5*/
+
+
+/*all css in part6*/
+#part6{
+    padding-top: 80px;padding-bottom: 80px;
+}
+
+.visiontitle{
+    color:#0082ba;margin-bottom: 30px;font-size: 40px;
+}
+
+.visiondesc{
+    line-height: 2em;padding: 0 150px;
+}
+
+.visionicongroup{
+    padding:30px 0;
+}
+
+.visionicon{
+    width: 250px;
+}
+
+.socmedgroup{
+    padding: 0 50px;
+}
+
+.socmedline{
+    border-top: 1px solid #5C6873;color: #5C6873;
+}
+
+.socmedblock:first-child{
+    padding-left:0;
+    padding-right: 15px;
+}
+
+.socmedblock:last-child{
+    padding-left:12px;
+    padding-right: 0;
+}
+
+.socmedblock{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.socmedlink{
+    color: #5C6873;text-decoration: none !important;
+}
+
+.socmedlink:hover{
+    color: #0082ba;
+}
+
+.socmedicon{
+    font-size: 28px;padding: 15px 0 8px 0;
+}
+
+.socmedtext{
+    font-size:13px;
+}
+/*all css in part6*/
+
+
+/*all css in logo-bottom*/
+#logo-bottom{
+    margin-bottom:-35px;
+}
+
+.logo-icon{
+    width: 75px;
+}
+/*all css in logo-bottom*/
+
+
+/*all css in part7*/
+#part7{
+    font-size:12px;background-color:#001B2A;color:white;padding-top:50px;padding-bottom:25px;z-index: -1;
+}
+/*all css in part7*/
+
+
+/*responsive*/
+
+@media screen and (max-width: 1250px){
+
+    .padded{
+        padding: 15px 150px;
+    }
+
+    .part1iconhr{
+        width: 70%;
+    }
+
+    .inviteicongroup{
+        padding: 50px 250px;
+    }
+
+    .visiondesc{
+        padding: 0 120px;
+    }
+}
+
+@media screen and (max-width: 1225px){
+    .drn-b{
+        display: none;
+    }
+
+    #drn-s{
+        display: block;animation-delay: 0.2s;visibility: hidden;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .part1text{
+        padding: 50px 80px;
+    }
+
+    .inviteicongroup{
+        padding: 50px 170px;
+    }
+
+    .inviteline{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .padded{
+        padding: 15px 30px;
+    }
+
+    #part1{
+        padding-top: 50px;
+        padding-bottom: 80px; 
+    }
+
+    .part1text{
+        padding: 20px 30px;
+    }
+
+    .rightside{
+        font-size: 24px;padding:0;
+        text-align: center;
+    }
+
+    .part1icongroup{
+        margin-left: 0;
+    }
+
+    .drn-b{
+        display: none;
+    }
+
+    #drn-s{
+        display: block;animation-delay: 0.2s;visibility: hidden;
+        width: 400px;
+    }
+
+    .part1icontext{
+        font-size: 15px;
+    }
+
+    .inviteicongroup{
+        padding: 50px 30px;
+    }
+
+    .inviteline{
+        width: 30%;
+    }
+
+    .offerline{
+        display: none;
+    }
+
+    .visiondesc{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 872px){
+    #drn-s{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 872px){
+    #whitepaper{
+        margin-left: 0;
+        margin-top: 15px;
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .padded{
+        padding: 15px 10px;
+    }
+
+    #part1{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .part1block{
+        float: unset;
+    }
+
+    .part1text{
+        padding:0 20px;
+    }
+
+    .part1icongroup{
+        margin-left: 0;
+    }
+
+    .leftside{
+        font-size: 35px;
+    }
+
+    .rightside{
+        font-size: 24px;padding:0;
+        margin-top:40px; text-align: center;
+    }
+
+    .drn-b{
+        display: none;
+    }
+
+    #drn-s{
+        display: block;animation-delay: 0.2s;visibility: hidden;
+    }
+
+    .part1icontext{
+        font-size: 15px;
+    }
+
+    .part1iconhr{
+        width:90%;
+    }
+
+    .part2group{
+        padding: 0 20px;
+    }
+
+    .part2desc{
+        line-height: 1.5em;
+    }
+
+    .seektitle{
+        line-height: 1.3em;
+    }
+
+    .seekdesc{
+        padding: 10px 20px;
+        line-height: 1.5em;
+    }
+
+    #part3{
+        padding: 80px 10px 50px 10px;
+        /*background:linear-gradient(rgba(4, 104, 114,0.85),rgba(4, 104, 114,0.85)),url('../img/Untitled.png') no-repeat center center fixed;background-size: cover;*/
+    }
+
+    .inviteicongroup{
+        padding: 20px 10px;
+    }
+
+    .inviteiconblock{
+        margin-bottom: 0;
+    }
+
+    .inviteicon{
+        padding: 5px;
+        height: 95px;
+        margin-bottom: 20px;
+    }
+
+    .iconlg{
+        height: 115px;
+    }
+
+    .invitedesc{
+        font-size:16px;
+    }
+
+    .inviteline{
+        width: 24%;margin-top: 25px
+    }
+
+    .invitetitle{
+        font-size: 30px;
+    }
+
+    #part5{
+        padding-bottom: 80px;
+    }
+
+    .offerline{
+        display: none;
+    }
+
+    .offerblock{
+        width:1000px;
+    }
+
+    .piecegroup{
+        margin:0;
+    }
+
+    .infodgroup{
+        margin:0;
+    }
+
+    .graphgroup{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    #graph2{
+        margin-left: -320px;
+        margin-top: 0px;
+    }
+
+    #graph3{
+        margin-left: -85px;
+        margin-bottom:-115px;
+    }
+
+    #graph4{
+        margin-left:-85px;
+        margin-bottom:-80px;
+    }
+
+    #graph5{
+        margin-left: -130px;
+        margin-bottom: -162px;
+    }
+
+    #graph6{
+        margin-left: 60px;
+        margin-bottom: -38px;
+    }
+
+    #graph7{
+        margin-left: -120px;
+        margin-top: -80px;
+    }
+
+    #graph8{
+        margin-left: 130px;
+        margin-top: -57px;
+    }
+
+    #part6{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .visiondesc{
+        padding: 0 20px;
+    }
+
+    .socmedgroup{
+        padding: 0 20px;
+    }
+
+    .socmedblock:first-child{
+        padding-left:0;
+        padding-right: 2px;
+    }
+
+    .socmedblock:last-child{
+        padding-left:2px;
+        padding-right: 0;
+    }
+
+    .socmedblock{
+        padding: 0px 7px;
+    }
+}
+
+@media screen and (max-width: 723px){
+
+    .infodgroup{
+        margin:0;
+    }
+
+    .graphgroup{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    #graph2{
+        margin-left: 0;
+        margin-top: -220px;
+    }
+
+    #graph3{
+        margin-left: -85px;
+        margin-bottom:-115px;
+    }
+
+    #graph4{
+        margin-left:-85px;
+        margin-bottom:-80px;
+    }
+
+    #graph5{
+        margin-left: -130px;
+        margin-bottom: -162px;
+    }
+
+    #graph6{
+        margin-left: 60px;
+        margin-bottom: -38px;
+    }
+
+    #graph7{
+        margin-left: -120px;
+        margin-top: -123px;
+    }
+
+    #graph8{
+        margin-left: 130px;
+        margin-top: -100px;
+    }
+
+    .joinbuttongroup{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 658px){
+
+    .graphgroup{
+        padding-left: 40px;
+        margin-top: 50px;
+    }
+
+    .b-piece{
+        width: 280px;
+    }
+
+    .s-piece{
+        width: 120px;
+    }
+
+    .info{
+        width: 160px;
+    }
+
+    #graph2{
+        margin-left: 15px;
+        margin-top: -195px;
+    }
+
+    #graph3{
+        margin-left: -65px;
+        margin-bottom:-125px;
+    }
+
+    #graph4{
+        margin-left:-75px;
+        margin-bottom:-100px;
+    }
+
+    #graph5{
+        margin-left: -110px;
+        margin-bottom: -155px;
+    }
+
+    #graph6{
+        margin-left: 65px;
+        margin-bottom: -50px;
+    }
+
+    #graph7{
+        margin-left: -80px;
+        margin-top: -110px;
+    }
+
+    #graph8{
+        margin-left: 120px;
+        margin-top: -95px;
+    }
+
+    .joinbuttongroup{
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 498px){
+
+    #column1{
+        display: none;
+    }
+
+    #submitsmall{
+        display: block;
+    }
+
+    .b-piece{
+        width: 200px;
+    }
+
+    .s-piece{
+        width: 85px;
+    }
+
+    .info{
+        width: 110px;
+    }
+
+    #graph2{
+        margin-left: 15px;
+        margin-top: -145px;
+    }
+
+    #graph3{
+        margin-left: -45px;
+        margin-bottom:-130px;
+    }
+
+    #graph4{
+        margin-left:-55px;
+        margin-bottom:-110px;
+    }
+
+    #graph5{
+        margin-left: -70px;
+        margin-bottom: -145px;
+    }
+
+    #graph6{
+        margin-left: 45px;
+        margin-bottom: -70px;
+    }
+
+    #graph7{
+        margin-left: -60px;
+        margin-top: -95px;
+    }
+
+    #graph8{
+        margin-left: 70px;
+        margin-top: -85px;
+    }
+
+}
+
+@media screen and (max-width: 383px){
+
+    .modalinput2{
+        width: 100%;
+    }
+
+    .modalbutton1{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .drn-b{
+        display: none;
+    }
+
+    #drn-s{
+        display: block;animation-delay: 0.2s;visibility: hidden;
+    }
+
+    .inviteicon{
+        padding: 5px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .iconlg{
+        height: 100px;
+    }
+
+    .inviteline{
+        width: 24%;margin-top: 25px
+    }
+
+    .invitetitle{
+        font-size: 30px;
+    }
+
+    .invitedesc{
+        font-size: 15px;
+    }
+
+    .b-piece{
+        width: 150px;
+    }
+
+    .s-piece{
+        width: 63px;
+    }
+
+    .info{
+        width: 84px;
+    }
+
+    .piecegroup{
+        margin:0;
+    }
+
+    .infodgroup{
+        margin:0;
+    }
+
+    .graphgroup{
+        margin-top: 0;
+    }
+
+    #graph2{
+        margin-left: 0px;
+        margin-top: -115px;
+    }
+
+    #graph3{
+        margin-left: -45px;
+        margin-bottom:-135px;
+    }
+
+    #graph4{
+        margin-left:-45px;
+        margin-bottom:-120px;
+    }
+
+    #graph5{
+        margin-left: -70px;
+        margin-bottom: -160px;
+    }
+
+    #graph6{
+        margin-left: 30px;
+        margin-bottom: -100px;
+    }
+
+    #graph7{
+        margin-left: -60px;
+        margin-top: -100px;
+    }
+
+    #graph8{
+        margin-left: 70px;
+        margin-top: -80px;
+    }
+
+    .joinbuttongroup{
+        margin-top: 10px;
+    }
+
+}
+
+
